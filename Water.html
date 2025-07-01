@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodies of Water</title>
+    <link rel="stylesheet" href="newstyle1.css">
+    <link rel="stylesheet" href="newStyle.css">
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- home section starts here  -->
+    <section class="home no-bg-home">
+        <div class="home-box no-bg">
+            <nav>
+                <div class="logo bars">
+                    <div class="bar">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <img src="Logo.png" alt="Pagbilao Logo" class="pagbilao-logo">
+                    <h1>Welcome to Pagbilao</h1>
+                </div>
+                <div class="menu">
+                    <div class="close">
+                        <i class="fa fa-close"></i>
+                    </div>
+                    <ul>
+                        <li onclick="myFunctionHOME()"><a href="#">home</a></li>
+                       
+                        
+                    </ul
+                </div>
+            </nav>
+
+           
+        </div>
+    </section>
+    <!-- home section ends here  -->
+
+    <!-- destinatons section starts here  -->
+    <section class="destinations">
+      <br> <h1 class="label">Iringan Falls</h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title="Iringan Falls"
+                 data-place-story=" Iringan Falls, a hidden gem, inspired local artist Kuya Pabs—now known as the Painter by the River —with its serene beauty. More than just a scenic spot, it fuels the local economy through tourism, supports farming with its water, and creates jobs. A hub for trekking, swimming, and bonding, it brings people together. Scientifically, its mist releases negative ions that boost mood and wellness—making every visit both refreshing and uplifting. "
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="IringanFalls.png" alt="AltarMayor" class="destination-img-animate"></div></p><br><strong><p> Iringan Falls </strong> <br> ----- <br><h6>Photo taken April of 2016 <br> by Angel Juarez </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description"><strong> Iringan Falls </strong> is a serene, horsetail-type waterfall tucked in the lush forests of Pagbilao, Quezon. It cascades from a height of around 15 meters into a crystal-clear, shallow basin surrounded by mossy rocks and dense greenery. Accessible via a scenic trail and river trek, it's a peaceful spot perfect for nature lovers and adventure seekers alike.
+
+<br> <br> 🌟 Fun Fact: Did you know Iringan Falls got its name from a legendary snake fight? Today, instead of serpents, it's the tourists, vloggers, and painters who are "fighting" for the best shot of this natural masterpiece!
+
+<br> <br></p>
+                    <p class="mobile-full-description" style="display: none;">The falls are particularly popular during the summer months when visitors can enjoy the cool, refreshing waters. The area around the falls is also home to various species of birds and small wildlife, making it a perfect spot for nature photography and bird watching. Local guides are available to help visitors navigate the trail safely and share interesting stories about the falls' history and legends.<br><br>For those planning to visit, it's recommended to bring proper hiking shoes, water, and snacks. The trail can be slippery during rainy weather, so checking the weather forecast before your trip is advisable. The falls are accessible year-round, but the best time to visit is during the dry season when the water flow is moderate and the trail is less challenging.</p>
+                                <br> <br> <a href="#" onclick="myFunctionIringanFalls()">Location: Iringan Falls <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionIringanDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+                <!-- Dedicated See More Popup for Iringan Falls -->
+                <div class="see-more-popup" id="seeMoreIringan" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeIringanSeeMore(event)">&times;</button>
+                    <h4><strong>More about Iringan Falls</strong> </h4>
+                    <p> <br> <br> The name <strong> Iringan </strong> comes from a local legend about two battling snakes, giving the falls a mystical backstory. Once used for road construction and as a rebel hideout, the falls now serve as a vital water source for locals, with plans to supply nearby communities. Tourists, vloggers, and artists like Kuya Pabs flock to the area for its beauty and adventure, from swimming to trekking. While local rules help protect it, threats like pollution and illegal logging still pose challenges to its preservation.</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="Irigangal1.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src="images(2).jpg" alt="Gallery 2" class="popup-gallery-img">
+                      <img src="images(4).jpg" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    
+        <br> <h1 class="label">Kamaluya Falls</h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title="Kamaluya Falls"
+                 data-place-story="The breathtaking 200-foot Kamaluya Falls makes the six-kilometer trek worth every step. Surrounded by lush trees and rare, high-value plants, the area becomes even more magical in summer when white flowers bloom along the rock walls—turning the scene into a natural masterpiece perfect for photography.
+Locals benefit from the falls as a free water source, while the surrounding forest provides food and resources. Tour guiding also offers income to residents, helping support their families.
+During summer, visitors flock to Kamaluya to take a refreshing dip in its cool waters and capture unforgettable memories in this hidden paradise."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="KamaluyaFalls.png" alt="Kamaluya Falls" class="destination-img-animate"></div></p><strong><p> Kamaluya Falls </strong> <br> ----- <br><h6>Photo taken October 2021 <br> LGU Pagbilao Tourism </p> </h6> </div>
+                
+                <div class="content">
+                    <p><strong> Kamaluya Falls </strong> is a majestic, three-tier waterfall plunging from about 200 feet, hidden in the heart of Brgy. Ilaya Bagumbungan. Reaching it requires a tough four-hour trek through lush forests filled with bamboo, mahogany, and giant balete roots—but nature lovers are rewarded with a truly raw and breathtaking sight. At the bottom lies a shallow plunge pool, ever-changing with the rain.
+
+<br> <br> 🌟 Fun Fact: A tourist once snapped a photo at Kamaluya Falls—only to find a mysterious ghostly figure in the background!
+
+<br> <br></p>
+            <br> <br> <a href="#" onclick="myFunctionKamaluyaFalls()">Location: Kamaluya Falls <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionKamaluyaDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+                <!-- Dedicated See More Popup for Kamaluya Falls -->
+                <div class="see-more-popup" id="seeMoreKamaluya" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeKamaluyaSeeMore(event)">&times;</button>
+                    <h3>More about Kamaluya Falls</h3>
+                    <p><br><br><strong> Kamaluya Falls </strong> is a stunning three-tier cascade towering at around 200 feet, located deep within Brgy. Ilaya Bagumbungan. Reaching it takes a challenging four-hour trek from the barangay hall, but the reward is worth the effort. The area is rich in plant life, with peace lilies (*Spathiphyllum*), bamboo, mahogany, and apitong trees lining the trail. Massive balete roots cling to the rocks, adding to the wild, untouched charm.
+
+At the base, a plunge pool about 3 feet deep and 1.43 meters wide forms, though its size and flow vary with rainfall—making every visit a unique experience.</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="KamaluyaFalls.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src=".jpg" alt="Gallery 2" class="popup-gallery-img">
+                      <img src=" .jpg" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+    <br> <h1 class="label">Amao Falls</h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title="Amao Falls"
+                 data-place-story=" Amao Falls, with its majestic eight-tier cascade, is the crown jewel of QPL Pagbilao. Its clean, DENR-Class B waters are perfect for swimming and bathing, drawing crowds year-round. Beyond its beauty, the falls bring communities together and provide vital water for farming in Sitio Amao. Its pH even meets DOH standards for drinking. As a protected site, it also serves as a living lab for UP students studying its rich ecosystem—proving that Amao Falls is as valuable as it is breathtaking. "
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="AmaoFalls.png" alt="Amao Falls" class="destination-img-animate"></div></p><br><strong><p> Amao Falls </strong> <br> ----- <br><h6>Photo taken February of 2022 <br> LGU Pagbilao Tourism </p> </h6> </div>
+                
+                <div class="content">
+                    <p><strong>  Amao Falls </strong> is an eight-tier natural wonder tucked in Sitio Amao, Brgy. Silangang Malicboy—just a 20-minute trek from the DENR IV-A PASu office. Surrounded by lush forest vegetation like tibig, balete, and lamio trees, this hidden gem rewards visitors with cascading waters, scenic pools, and rich biodiversity. The largest plunge pool stretches 11.28 meters wide and reaches up to 1.5 meters deep, perfect for a refreshing dip after climbing the trail's 4-meter-high boulder.
+
+
+<br> <br> 🌟Fun Fact: This scenic wonder once starred in a steamy film scene with Sarsi Emmanuel—making it a real-life waterfall with a silver-screen legacy!
+
+
+
+<br> <br></p>
+            <br> <br> <a href="#" onclick="myFunctionAmaoFalls()">Location: Amao Falls <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionAmaoDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+                <!-- Dedicated See More Popup for Amao Falls -->
+                <div class="see-more-popup" id="seeMoreAmao" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeAmaoSeeMore(event)">&times;</button>
+                    <h3>More about Amao Falls</h3>
+                    <br> <br> <p> <strong> Amao Falls </strong> gets its name from Sitio Amao, the nearest area in Silangang Malicboy. Just a kilometer away—or about a 20-minute trek—from the DENR Region IV-A PASu office, the trail to the falls begins right behind the information center. Along the way, hikers can spot diverse flora like guyabano (Annona muricata), rattan, niyog, niyog-niyugan, and the bay-it tree.
+
+Before reaching the base of the majestic eight-tier waterfall, visitors must climb a 4-meter-high boulder for the best view. Each tier of the cascade is spaced roughly 8 meters apart. The largest plunge pool at the bottom spans about 11.28 meters wide and reaches up to 1.5 meters deep. Just above it, the second plunge is about 6 meters wide with an estimated depth of 10 meters.
+
+The falls are framed by rich forest vegetation, home to a variety of plant species such as the tibig (Ficus nota), balete (Ficus benjamina), malapapaya, lamio (Dracontomelon dao), tambo, and als-as (Pandanus luzonensis), making it not only a natural wonder but a biodiversity haven.</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="AmaoFalls.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src=" .jpg" alt="Gallery 2" class="popup-gallery-img">
+                      <img src=" .jpg" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+       <br> <h1 class="label">Palsabangon Falls</h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title="Palsabangon Falls"
+                 data-place-story=" Palsabangon Falls stuns with its unique mix of slide and cascade flows, drawing tourists with its clear waters and vibrant atmosphere. It boosts the local economy through entrance fees that support trail upkeep, while local folklore about an engkanto adds mystery to its charm. Beyond beauty, the falls help purify water for the Palsabangon River, supporting life and showcasing nature's quiet power. "
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="Palsabangon Falls.png" alt="Palsabangon Falls" class="destination-img-animate"></div></p><br><strong><p> Palsabangon Falls </strong> <br> ----- <br><h6>Photo taken October 2020 <br> LGU Pagbilao Tourism </p> </h6> </div>
+                
+                <div class="content">
+                    <p> <strong> Palsabangon Falls </strong> is a hidden gem in Pagbilao, reachable via two scenic trails—either a 35-minute trek from Brgy. Bagumbungan or a 45-minute walk from Ilayang Palsabangon. This multi-tiered marvel features four waterfalls: two cascades, a slide type, and a striking horsetail fall. During the rainy season, they merge into a powerful square-shaped flow that's truly a sight to behold. Natural basins at the top and bottom offer the perfect cool-down after the hike.
+
+<br> <br> 🌟 Fun Fact: Palsabangon isn't just scenic—it's spooky! Many believe it's home to an engkanto!</p>
+            <br> <br> <a href="#" onclick="myFunctionPalsabangonFalls()">Location: Palsabangon Falls <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionPalsabangonDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+                <!-- Dedicated See More Popup for Palsabangon Falls -->
+                <div class="see-more-popup" id="seeMorePalsabangon" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closePalsabangonSeeMore(event)">&times;</button>
+                    <h3>More about Palsabangon Falls</h3>
+                    <p><br> <br> There are two main trails to reach the captivating <strong> Palsabangon Falls </strong> . The easier route starts from Brgy. Bagumbungan, about 3.11 km away, taking 35–40 minutes on foot. The second trail from Brgy. Ilayang Palsabangon is slightly longer at 3.57 km and takes around 45 minutes.
+At both the top and bottom of the falls, pool-like basins offer perfect spots for a refreshing dip. Palsabangon Falls features four distinct waterfalls: two cascade types, one slide type, and one horsetail type. During the rainy season, these merge into a powerful, square-shaped waterfall, creating a dramatic and unique view. Water flow varies, but it's usually steady and strong—adding to its thrill and beauty.</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="Palsabangon Falls.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src=" .jpg" alt="Gallery 2" class="popup-gallery-img">
+                      <img src=" .jpg" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+    <br> <h1 class="label">Altar Mayor</h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title="Altar Mayor"
+                 data-place-story="Altar Mayor holds deep spiritual roots—once used by early residents as a sacred site where Spanish priests reportedly held mass, especially to honor the dead believed to have drifted from the Daungan-Pari River.
+Socially, it remains part of daily life for some locals, who continue the tradition of bathing and washing laundry in the river during the summer, just as their ancestors did.
+Historically, it's remembered as a solemn gathering place, where rituals and masses were performed to pay respects, blending faith, community, and memory in one sacred natural setting."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="AltarMayor.png" alt="Altar Mayor" class="destination-img-animate"></div></p><br><strong><p> Altar Mayor </strong> <br> ----- <br><h6>Photo taken October 2021 <br>by Cruz, Marko </p> </h6> </div>
+                
+                <div class="content">
+                    <p> <strong> Altar Mayor </strong> is a towering, mossy rock in Brgy. Ikirin, standing 10–15 meters high and shrouded in mystery. Locals speak of an underwater tunnel hidden beneath it—believed to connect to a distant church in Pagbilao or Tayabas. Legends of secret Spanish-era masses and sightings of the Virgin Mary gave the rock its sacred name.
+
+Once used for bathing, it's now mostly avoided due to chilling tales of ghostly voices, shadowy figures, and strange illnesses. Even a protective riprap built years ago has mysteriously disappeared—adding to the rock's eerie lore.
+
+<br> <br> 🌟 Fun Fact: Locals claim that if you visit at dawn or dusk, you might hear the faint echo of church bells or chanting—even though there's no church anywhere nearby!</p>
+            <br> <br> <a href="#" onclick="myFunctionAltarMayor()">Location: Altar Mayor <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionAltarMayorDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+                <!-- Dedicated See More Popup for Altar Mayor -->
+                <div class="see-more-popup" id="seeMoreAltarMayor" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeAltarMayorSeeMore(event)">&times;</button>
+                    <h3>More about Altar Mayor</h3>
+                    <p><br><br> <strong> Altar Mayor </strong> is a moss-covered rock formation in Brgy. Ikirin, rising 10–15 meters above the water—and, according to legend, plunging just as deep below. 
+                        Locals whisper of a hidden underwater tunnel that leads to a distant church in either Pagbilao or Tayabas, depending on who tells the tale. Its name comes from stories of apparitions of the Virgin Mary and secret masses once held by Spanish priests atop the rock.
+
+In earlier times, the site was used for bathing and laundry, but today it's mostly avoided. Stories of ghostly voices, towering shadow figures, and sudden unexplained illnesses keep most people away. A riprap once built by a former mayor to protect the site has mysteriously vanished—just one more piece of the puzzle surrounding this legendary landmark.</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="AltarMayor.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src=" .jpg" alt="Gallery 2" class="popup-gallery-img">
+                      <img src=" .jpg" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="Palsabangon Rivers.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src=" .jpg" alt="Gallery 2" class="popup-gallery-img">
+                      <img src=" .jpg" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+     <br> <h1 class="label">Palsabangon River</h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title="Palsabangon River"
+                 data-place-story=" The Palsabangon River is a cherished summer spot where families and tourists gather for picnics and photos. Its flowing waters hold spiritual meaning for religious rituals like baptism, symbolizing renewal. During World War II, it served as a strategic defense point under Colonel Boatwright. With its clear waters, colorful stones, and lush scenery, the river offers both beauty and calm. Economically, it plays a vital role by supplying fresh water to Pagbilao's coal-fired power plant—over 800,000 cubic meters each year. "
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="Palsabangon Rivers.png" alt="Palsabangon River" class="destination-img-animate"></div></p><br><strong><p> Palsabangon River </strong> <br> ----- <br><h6>Photo taken January 2022 <br> LGU Tourism Pagbilao </p> </h6> </div>
+                
+                <div class="content">
+                    <p> The <strong> Palsabangon River </strong> winds through Brgy. Ilayang Palsabangon, fed by the scenic Palsabangon Falls before flowing into Tayabas Bay. Its crystal-clear waters, lined with river stones, greenery, and a hanging bridge, connect communities and stories alike.
+Once a silent witness to WWII resistance efforts, the river is also wrapped in mystery—with tales of ghost ships, enchanted pigs, and disappearing villagers. Today, it remains essential for local life—used in rituals, picnics, and even powering nearby industries.
+
+<br> <br> 🌟 Fun Fact: Some believe the river's sudden floods are caused by a ghostly gold ship that still roams beneath the surface!</p>
+            <br> <br> <a href="#" onclick="myFunctionPalsabangonRiver()">Location: Palsabangon River <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionPalsabangonRiverDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+                <!-- Dedicated See More Popup for Palsabangon River -->
+                <div class="see-more-popup" id="seeMorePalsabangonRiver" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closePalsabangonRiverSeeMore(event)">&times;</button>
+                    <h3>More about Palsabangon River</h3>
+                    <p><br> <br>The <strong> Palsabangon River </strong> flows gracefully through Brgy. Ilayang Palsabangon before merging with Tayabas Bay. Fed by the majestic Palsabangon Falls, its clear waters reveal vibrant river rocks and are lined with loamy soil, dense greenery, and a charming hanging bridge that connects local communities.
+Steeped in folklore, stories speak of ghost ships carrying gold, vanishing villagers, and enchanted wild pigs. During WWII, the river also played a key role in local resistance against Japanese forces. Today, it serves many purposes—from sacred rituals and family picnics to supporting industrial needs like Pagbilao's power plant.</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="Palsabangon Rivers.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src=" .jpg" alt="Gallery 2" class="popup-gallery-img">
+                      <img src=" .jpg" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+     <br> <h1 class="label">Tambak River</h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title="Tambak River"
+                 data-place-story="Tambak River holds a key place in Pagbilao's history—it was once the main waterway used by Spanish expeditions, contributing to the town's naming and early identity. Economically, it played a vital role during the time of horse-driven transport, serving as a bathing spot for horses that delivered coconuts from Brgy. Ilaya Bagumbungan to the town center, especially when roads were limited.
+
+For residents of Brgy. Tambak, the river continues to be a lifeline—used for washing clothes and dishes, bathing, and unfortunately, even as a toilet by some. These daily routines foster strong social interaction within the community.
+
+Spiritually, the river is home to the iconic "Altar" rock formation, believed to be the site of a Virgin Mary apparition. Though only the rock remains today, locals still light candles and offer prayers, keeping the faith and legend alive."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="TambakRiver.png" alt="Tambak River" class="destination-img-animate"></div></p><br><strong><p> Tambak River </strong> <br> ----- <br><h6>Photo taken January 2022 <br> LGU Tourism Pagbilao </p> </h6> </div>
+                
+                <div class="content">
+                    <p><strong> Tambak River </strong> stretches over 4 km and connects five barangays, making it one of Pagbilao’s most vital and well-known waterways. Rich in fish and folklore, it’s long been used for daily chores, wartime refuge, and spiritual rituals.
+
+<br> <br> 🌟 Fun Fact:  In the 1990s, Mayor Rosauro Radovan released baby tilapia into the river—not just to clean the water, but to help nourish the community too!</p>
+            <br> <br> <a href="#" onclick="myFunctionTambakRiver()">Location: Tambak River <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionTambakRiverDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+                <!-- Dedicated See More Popup for Tambak River -->
+                <div class="see-more-popup" id="seeMoreTambakRiver" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeTambakRiverSeeMore(event)">&times;</button>
+                    <h3>More about Tambak River</h3>
+                    <p><br> <br> <strong>Tambak River </strong> runs over 4 kilometers and connects five barangays—Mayhay, Tambak, Ikirin, Pinagbayanan, and Daungan—making it the most accessible and familiar river in Pagbilao. Despite its closeness to the town center, it remains vibrant with life, home to tilapia, catfish, and freshwater shrimp.
+
+Locals have used its waters for generations—for bathing, washing, and even religious rituals, especially near the famous "Altar" rock where a Virgin Mary statue was once seen. During the Japanese era, it also served as a hiding place, with secret spots called pansol. Legends still speak of its mysterious depth and hidden secrets.</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="TambakRiver.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src=" .jpg" alt="Gallery 2" class="popup-gallery-img">
+                      <img src=" .jpg" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    
+    <!-- destinatons section ends here  -->
+
+    <!-- Feedback section starts here -->
+    <section class="feedback-section" style="padding: 3rem 0;">
+        <div style="display: flex; justify-content: center; align-items: flex-start; gap: 2rem; flex-wrap: wrap; max-width: 900px; margin: 0 auto;">
+            <div style="flex: 1; min-width: 250px;">
+                <div class="feedback-heading">
+                    <h2 style="color: #0056b3; margin-bottom: 1.5rem;">We Value Your Feedback!</h2>
+                </div>
+                <div class="feedback-description">
+                    <p style="margin-bottom: 2rem;">Please let us know your thoughts, suggestions, or experiences by clicking one of the forms below.</p>
+                </div>
+            </div>
+            <div style="flex: 1; min-width: 250px; display: flex; flex-direction: column; gap: 1.5rem; align-items: flex-end;">
+                <button style="background: #0056b3; color: #fff; border: none; border-radius: 8px; padding: 1rem 2rem; font-size: 1rem; cursor: pointer; width: 100%; max-width: 300px; text-align: center;">Pagbilao Tourism Registration</button>
+                <button style="background: #0056b3; color: #fff; border: none; border-radius: 8px; padding: 1rem 2rem; font-size: 1rem; cursor: pointer; width: 100%; max-width: 300px; text-align: center;">Pagbilao Tourism Survey Form</button>
+            </div>
+        </div>
+    </section>
+    <!-- Feedback section ends here -->
+    <!-- featured 
+
+    <-- footer section starts here  -->
+    <button id="scrollToTopBtn" title="Go to top">&uarr;</button>
+    <footer>
+        <div class="footer-blue-bar top"></div>
+        <div class="footer-yellow">
+            <section class="footer">
+                <div class="container">
+                    <div class="detail">
+                         <h1>PAGBILAO TOURISM</h1>
+                        <p>ENJOY, HAVE FUN , AND EXPERIENCES <br> OUR NATURAL, IMMOVABLE AND CULTURAL INSTITUITION</p>
+                        <div class="social">
+                            <a href="#" onclick="myFunctionFB()" ><i class="fa fa-facebook-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="about-us">
+                        <h2>LGU PAGBILAO</h2>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">Pagbilao Municipal Hall, Rizal St., <br>Brgy. Sta. Catalina, Pagbilao, Quezon</a></li>
+                        <li><a href="#">Telephone No.:  <span>(042) 797-0937</span></a></li>
+                    </div>
+                    <div class="about-us">
+                        <h4>EMERGENCY HOTLINES</h4>
+                        <li><a href="#">Philippine National Police</a></li>
+                        <li><a href="#">Telephone No.: <span>(042)797-2854</span></a></li>
+                        <li><a href="#">Bureau of Fire Protection</a></li>
+                        <li><a href="#">Telephone No.: <span>(042)797-0932</span></a></li>
+                        <li><a href="#">Municipal Health Office</a></li>
+                        <li><a href="#">Telephone No.: <span>(042)797-3092</span></a></li>
+                    </div>
+                </div>
+                <div class="copyright">
+                    &copy;2025 -Pagbilao, Quezon, Philippines. <br> all rights reserved
+                    <div>
+                        <a href="#">term & conditions</a>
+                        <a href="#">privacy policy</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </footer>
+    <!-- footer section ends here  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="newscript.js"></script>
+    
+    
+    
+      <style>
+    .place-popup {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      background: #0056b3;
+      border: 6px solid #fff200;
+      box-shadow: 0 0 32px 0 #fff200cc, 0 0 0 8px #fff20055;
+      color: #fff;
+      border-radius: 18px;
+      opacity: 0;
+      pointer-events: none;
+      z-index: 10;
+      transition: opacity 0.2s;
+    }
+    .place-popup.show {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .popup-header {
+      position: relative;
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 0 15px;
+    }
+    .popup-close-btn {
+      font-size: 1.5rem;
+      background: none;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      padding: 5px;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background-color 0.2s;
+    }
+    .popup-close-btn:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+    .popup-content {
+      flex: 1;
+      padding: 0 1.5rem 1.5rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: justify;
+    }
+    .popup-content h3 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    .popup-content strong {
+      font-size: 1.3rem;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    .popup-content p {
+      font-size: 1.35rem;
+      line-height: 1.7;
+      margin-bottom: 1.2rem;
+    }
+    .popup-gallery {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .popup-gallery-img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 14px;
+      border: 2.5px solid #fff;
+      background: #222;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+    }
+    #scrollToTopBtn {
+      display: none;
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      z-index: 100;
+      border: none;
+      outline: none;
+      background-color: #0056b3;
+      color: white;
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 50%;
+      font-size: 18px;
+      width: 50px;
+      height: 50px;
+    }
+    #scrollToTopBtn:hover {
+        background-color: #004494;
+    }
+    .img-container-5x5 {
+        width: 350px;
+        height: 350px;
+        margin: 0 auto;
+    }
+    .img-container-5x5 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    .container-box .content p {
+      font-size: 1.35rem;
+      line-height: 1.7;
+      margin-bottom: 1.2rem;
+    }
+    </style>
+    <script>
+    const placeBoxes = document.querySelectorAll('.container-box[data-place-title]');
+    let popupTimer = null;
+
+    placeBoxes.forEach(box => {
+      const popup = box.querySelector('.place-popup');
+      const popupTitle = popup.querySelector('h3');
+      const popupStory = popup.querySelector('.popup-story');
+      const closeBtn = popup.querySelector('.popup-close-btn');
+
+      // Use a function to show the popup to avoid duplicating code
+      const showPopup = () => {
+        popupTitle.textContent = box.getAttribute('data-place-title') || '';
+        popupStory.textContent = box.getAttribute('data-place-story') || '';
+        popup.classList.add('show');
+      };
+
+      // Use mouseenter and mouseleave for desktop only
+      if (window.innerWidth > 600) {
+        box.addEventListener('mouseenter', () => {
+          popupTimer = setTimeout(showPopup, 500);
+        });
+        box.addEventListener('mouseleave', () => {
+          clearTimeout(popupTimer);
+          popup.classList.remove('show');
+        });
+      }
+
+      // Add click event directly to the image only for mobile
+      if (window.innerWidth <= 600) {
+        const image = box.querySelector('.destination-img-animate');
+        if (image) {
+          image.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            showPopup();
+          });
+        }
+      }
+      
+      if (closeBtn) {
+        closeBtn.addEventListener('click', (e) => {
+          e.stopPropagation(); // Stop the click from bubbling up to the box
+          popup.classList.remove('show');
+        });
+      }
+    });
+
+    const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+    window.addEventListener('scroll', () => {
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        scrollToTopBtn.style.display = "block";
+      } else {
+        scrollToTopBtn.style.display = "none";
+      }
+    });
+    scrollToTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    </script>
+
+    <style>
+    @media (max-width: 600px) {
+      .place-popup {
+        width: 98vw;
+        height: 98vh;
+        border-width: 3px;
+        border-radius: 10px;
+        padding: 0.5rem 0.2rem;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+      }
+      .popup-content {
+        padding: 0.5rem;
+      }
+      .popup-content h3 {
+        font-size: 1.2rem;
+        padding-top: 4rem; /* Increased padding to lower the title further */
+      }
+      .popup-content strong {
+        font-size: 1rem;
+      }
+      .popup-content p {
+        font-size: 1rem;
+      }
+      .popup-gallery {
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-top: 1rem;
+      }
+      .popup-gallery-img {
+        width: 180px;
+        height: 180px;
+      }
+      .popup-close-btn {
+        background: #fff !important;
+        color: #0056b3 !important;
+        border: 1.5px solid #0056b3 !important;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+      }
+      .img-container-5x5 {
+        width: 90vw;
+        height: 40vw;
+        max-width: 300px;
+        max-height: 150px;
+      }
+      .container-box .content p {
+        font-size: 1rem;
+      }
+      .label {
+        font-size: 1.2rem;
+      }
+      .mobile-see-more {
+        display: block !important;
+        margin: 1rem 0;
+        text-align: center;
+        color: #0056b3;
+        text-decoration: none;
+        font-weight: bold;
+      }
+    }
+    @media (min-width: 601px) {
+      .mobile-see-more {
+        display: none !important;
+      }
+    }
+    </style>
+    
+    <script>
+    function myFunctionIringanDescription(event) {
+      console.log('See more clicked - preventing all events');
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreIringan').style.display = 'flex';
+      return false;
+    }
+    function closeIringanSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreIringan').style.display = 'none';
+    }
+    function myFunctionKamaluyaDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreKamaluya').style.display = 'flex';
+      return false;
+    }
+    function closeKamaluyaSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreKamaluya').style.display = 'none';
+    }
+    function myFunctionAmaoDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreAmao').style.display = 'flex';
+      return false;
+    }
+    function closeAmaoSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreAmao').style.display = 'none';
+    }
+    function myFunctionPalsabangonDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMorePalsabangon').style.display = 'flex';
+      return false;
+    }
+    function closePalsabangonSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMorePalsabangon').style.display = 'none';
+    }
+    function myFunctionAltarMayorDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreAltarMayor').style.display = 'flex';
+      return false;
+    }
+    function closeAltarMayorSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreAltarMayor').style.display = 'none';
+    }
+    function myFunctionPalsabangonRiverDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMorePalsabangonRiver').style.display = 'flex';
+      return false;
+    }
+    function closePalsabangonRiverSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMorePalsabangonRiver').style.display = 'none';
+    }
+    function myFunctionTambakRiverDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreTambakRiver').style.display = 'flex';
+      return false;
+    }
+    function closeTambakRiverSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreTambakRiver').style.display = 'none';
+    }
+    </script>
+</body>
+</html>
