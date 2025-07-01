@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immovable</title>
+    <link rel="stylesheet" href="newstyle1.css">
+    <link rel="stylesheet" href="newStyle.css">
+    <link rel="stylesheet" href="popup.css"> <!-- Link to the new stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- home section starts here  -->
+    <section class="home">
+        <div class="home-box">
+            <nav>
+                <div class="logo bars">
+                    <div class="bar">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <img src="Logo.png" alt="Pagbilao Logo" class="pagbilao-logo">
+                    <h1>Welcome to Pagbilao</h1>
+                </div>
+                <div class="menu">
+                    <div class="close">
+                        <i class="fa fa-close"></i>
+                    </div>
+                    <ul>
+                        <li onclick="myFunctionHOME()"><a href="#">home</a></li>
+                    
+                        
+                    </ul>
+                </div>
+             
+                 
+                </div>
+            </nav>
+
+           
+        </div>
+    </section>
+
+   
+    <!-- destinatons section starts here  -->
+    <section class="destinations">
+    <!-- home section ends here  -->
+  <br> <h1 class="label">Bigo Bridge </h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title="Bigo Bridge "
+                 data-place-story="Bigo Bridge is a remarkable Spanish-era stone arch bridge in Barangay Bigo, built in the 1870s through forced labor or polo y servicio. Its solid foundation—made of basalt, lime, and honey—showcases the craftsmanship of the past, with adobe stones engraved with Roman numerals still visible today. Beyond connecting Pagbilao and Tayabas, it once supported local trade and travel that fueled economic growth. With moss-covered walls and a graceful arch over the river, Bigo Bridge remains not only historically significant but visually stunning—perfect for heritage walks or even a vintage-themed photoshoot."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="Bigo Bridge.png" alt="Bigo Bridge " class="destination-img-animate"></div></p><br><strong><p> Bigo Bridge  </strong> <br> ----- <br><h6>Photo taken March 2022 <br> by LGU Tourism Pagbilao </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description">Nestled in the greenery of Sitio Imbargo, Barangay Bigo, <strong> Bigo Bridge </strong> is a 24-foot Spanish-era structure connecting Tayabas and Pagbilao. Built from adobe stones engraved with Roman numerals, and bonded with lime, basalt—and even honey (pulot)—it was completed through polo y servicio, the forced labor of Filipinos.
+Now veiled in moss and native plants like tibig and takip-asin, it stands quietly, blending into nature while guarding centuries of stories.
+<br> <br> 🌟 Fun Fact: In colonial times, churchgoers had to bring a stone to mass—or face 25 lashes. No stone, no salvation!
+<br> <br> 👻 Local Lore: People tell of glowing crosses, vanishing figures, and santelmo (fire spirits) drifting through the trees. Radios often go silent when crossing—locals just nod and say, “You are not the first.”
+<br> <br></p>
+                    <p class="mobile-full-description" style="display: none;">The falls are particularly popular during the summer months when visitors can enjoy the cool, refreshing waters. The area around the falls is also home to various species of birds and small wildlife, making it a perfect spot for nature photography and bird watching. Local guides are available to help visitors navigate the trail safely and share interesting stories about the falls' history and legends.<br><br>For those planning to visit, it's recommended to bring proper hiking shoes, water, and snacks. The trail can be slippery during rainy weather, so checking the weather forecast before your trip is advisable. The falls are accessible year-round, but the best time to visit is during the dry season when the water flow is moderate and the trail is less challenging.</p>
+                                <br> <br> <a href="#" onclick="myFunctionBigoBridge()">Location: Bigo Bridge  <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionBigoDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+                <!-- Dedicated See More Popup for Iringan Falls -->
+                <div class="see-more-popup" id="seeMoreBigo" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeBigoSeeMore(event)">&times;</button>
+                    <h4><strong>More about Bigo Bridge </strong> </h4>
+<br> <br> 📍 Sitio Imbargo, Brgy. Bigo, Pagbilao, Quezon
+
+<br> <Br> Built in 1856 during the Spanish colonial era,<strong> Bigo Bridge </strong> —locally known as Puente de Ibabang Bukal—is a stone arch bridge made from perfectly cut adobe stones, lime, and even honey. Once part of a crucial trade route connecting Pagbilao and Tayabas, it was constructed through polo y servicio (forced labor), and remains standing after more than 165 years.
+
+Surrounded by dense greenery and folklore, the bridge is rich in mystery. Locals speak of santelmo (fire spirits), shadow figures, and a glowing white cross that fades upon approach. Its moss-covered railings and Roman numeral-marked stones whisper tales of devotion and hardship—where villagers once had to bring stones to church or face 25 lashes.</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="Irigangal1.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src="images(2).jpg" alt="Gallery 2" class="popup-gallery-img">
+                      <img src="images(4).jpg" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feedback section starts here -->
+    <section class="feedback-section" style="padding: 3rem 0;">
+        <div style="display: flex; justify-content: center; align-items: flex-start; gap: 2rem; flex-wrap: wrap; max-width: 900px; margin: 0 auto;">
+            <div style="flex: 1; min-width: 250px;">
+                <h2 style="color: #0056b3; margin-bottom: 1.5rem;">We Value Your Feedback!</h2>
+                <p style="margin-bottom: 2rem;">Please let us know your thoughts, suggestions, or experiences by clicking one of the forms on the right.</p>
+            </div>
+            <div style="flex: 1; min-width: 250px; display: flex; flex-direction: column; gap: 1.5rem; align-items: flex-end;">
+                <button style="background: #0056b3; color: #fff; border: none; border-radius: 8px; padding: 1rem 2rem; font-size: 1rem; cursor: pointer; width: 100%; max-width: 300px; text-align: center;" onclick="myFunctionTourismRegistration()">Pagbilao Tourism Registration</button>
+                <button style="background: #0056b3; color: #fff; border: none; border-radius: 8px; padding: 1rem 2rem; font-size: 1rem; cursor: pointer; width: 100%; max-width: 300px; text-align: center;" onclick="myFunctionTourismSurvey()">Pagbilao Tourism Survey Form</button>
+            </div>
+        </div>
+    </section>
+    <!-- Feedback section ends here -->
+
+    <!-- destinatons section ends here  -->
+
+    <!-- featured 
+    <-- footer section starts here  -->
+    <footer>
+        <div class="footer-blue-bar top"></div>
+        <div class="footer-yellow">
+            <section class="footer">
+                <div class="container">
+                    <div class="detail">
+                        <h1>PAGBILAO TOURISM</h1>
+                        <p>ENJOY, HAVE FUN , AND EXPERIENCES <br> OUR NATURAL, IMMOVABLE AND CULTURAL INSTITUITION</p>
+                        <div class="social">
+                            <a href="#" onclick="myFunctionFB()" ><i class="fa fa-facebook-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="about-us">
+                        <h2>LGU PAGBILAO</h2>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">Pagbilao Municipal Hall, Rizal St., <br>Brgy. Sta. Catalina, Pagbilao, Quezon</a></li>
+                        <li><a href="#">Telephone No.:  <span>(042) 797-0937</span></a></li>
+                    </div>
+                    <div class="about-us">
+                        <h4>EMERGENCY HOTLINES</h4>
+                        <li><a href="#">Philippine National Police</a></li>
+                        <li><a href="#">Telephone No.: <span>(042)797-2854</span></a></li>
+                        <li><a href="#">Bureau of Fire Protection</a></li>
+                        <li><a href="#">Telephone No.: <span>(042)797-0932</span></a></li>
+                        <li><a href="#">Municipal Health Office</a></li>
+                        <li><a href="#">Telephone No.: <span>(042)797-3092</span></a></li>
+                    </div>
+                </div>
+                <div class="copyright">
+                    &copy;2025 -Pagbilao, Quezon, Philippines. all rights reserved
+                    <div>
+                        <a href="#">term & conditions</a>
+                        <a href="#">privacy policy</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </footer>
+    <!-- footer section ends here  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="newscript.js"></script>
+    
+      <style>
+    .place-popup {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      background: #0056b3;
+      border: 6px solid #fff200;
+      box-shadow: 0 0 32px 0 #fff200cc, 0 0 0 8px #fff20055;
+      color: #fff;
+      border-radius: 18px;
+      opacity: 0;
+      pointer-events: none;
+      z-index: 10;
+      transition: opacity 0.2s;
+    }
+    .place-popup.show {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .popup-header {
+      position: relative;
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 0 15px;
+    }
+    .popup-close-btn {
+      font-size: 1.5rem;
+      background: none;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      padding: 5px;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background-color 0.2s;
+    }
+    .popup-close-btn:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+    .popup-content {
+      flex: 1;
+      padding: 0 1.5rem 1.5rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: justify;
+    }
+    .popup-content h3 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    .popup-content strong {
+      font-size: 1.3rem;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    .popup-content p {
+      font-size: 1.35rem;
+      line-height: 1.7;
+      margin-bottom: 1.2rem;
+    }
+    .popup-gallery {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .popup-gallery-img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 14px;
+      border: 2.5px solid #fff;
+      background: #222;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+    }
+    #scrollToTopBtn {
+      display: none;
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      z-index: 100;
+      border: none;
+      outline: none;
+      background-color: #0056b3;
+      color: white;
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 50%;
+      font-size: 18px;
+      width: 50px;
+      height: 50px;
+    }
+    #scrollToTopBtn:hover {
+        background-color: #004494;
+    }
+    .img-container-5x5 {
+        width: 350px;
+        height: 350px;
+        margin: 0 auto;
+    }
+    .img-container-5x5 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    .container-box .content p {
+      font-size: 1.35rem;
+      line-height: 1.7;
+      margin-bottom: 1.2rem;
+    }
+    </style>
+    <script>
+    const placeBoxes = document.querySelectorAll('.container-box[data-place-title]');
+    let popupTimer = null;
+
+    placeBoxes.forEach(box => {
+      const popup = box.querySelector('.place-popup');
+      const popupTitle = popup.querySelector('h3');
+      const popupStory = popup.querySelector('.popup-story');
+      const closeBtn = popup.querySelector('.popup-close-btn');
+
+      // Use a function to show the popup to avoid duplicating code
+      const showPopup = () => {
+        popupTitle.textContent = box.getAttribute('data-place-title') || '';
+        popupStory.textContent = box.getAttribute('data-place-story') || '';
+        popup.classList.add('show');
+      };
+
+      // Use mouseenter and mouseleave for desktop only
+      if (window.innerWidth > 600) {
+        box.addEventListener('mouseenter', () => {
+          popupTimer = setTimeout(showPopup, 500);
+        });
+        box.addEventListener('mouseleave', () => {
+          clearTimeout(popupTimer);
+          popup.classList.remove('show');
+        });
+      }
+
+      // Add click event directly to the image only for mobile
+      if (window.innerWidth <= 600) {
+        const image = box.querySelector('.destination-img-animate');
+        if (image) {
+          image.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            showPopup();
+          });
+        }
+      }
+      
+      if (closeBtn) {
+        closeBtn.addEventListener('click', (e) => {
+          e.stopPropagation(); // Stop the click from bubbling up to the box
+          popup.classList.remove('show');
+        });
+      }
+    });
+
+    const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+    window.addEventListener('scroll', () => {
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        scrollToTopBtn.style.display = "block";
+      } else {
+        scrollToTopBtn.style.display = "none";
+      }
+    });
+    scrollToTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    </script>
+
+    <style>
+    @media (max-width: 600px) {
+      .place-popup {
+        width: 98vw;
+        height: 98vh;
+        border-width: 3px;
+        border-radius: 10px;
+        padding: 0.5rem 0.2rem;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+      }
+      .popup-content {
+        padding: 0.5rem;
+      }
+      .popup-content h3 {
+        font-size: 1.2rem;
+        padding-top: 4rem; /* Increased padding to lower the title further */
+      }
+      .popup-content strong {
+        font-size: 1rem;
+      }
+      .popup-content p {
+        font-size: 1rem;
+      }
+      .popup-gallery {
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-top: 1rem;
+      }
+      .popup-gallery-img {
+        width: 180px;
+        height: 180px;
+      }
+      .popup-close-btn {
+        background: #fff !important;
+        color: #0056b3 !important;
+        border: 1.5px solid #0056b3 !important;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+      }
+      .img-container-5x5 {
+        width: 90vw;
+        height: 40vw;
+        max-width: 300px;
+        max-height: 150px;
+      }
+      .container-box .content p {
+        font-size: 1rem;
+      }
+      .label {
+        font-size: 1.2rem;
+      }
+      .mobile-see-more {
+        display: block !important;
+        margin: 1rem 0;
+        text-align: center;
+        color: #0056b3;
+        text-decoration: none;
+        font-weight: bold;
+      }
+    }
+    @media (min-width: 601px) {
+      .mobile-see-more {
+        display: none !important;
+      }
+    }
+    </style>
+    
+    <script>
+    function myFunctionBigoDescription(event) {
+      console.log('See more clicked - preventing all events');
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreBigo').style.display = 'flex';
+      return false;
+    }
+    function closeBigoSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreBigo').style.display = 'none';
+    }
+    function myFunctionKamaluyaDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreKamaluya').style.display = 'flex';
+      return false;
+    }
+    function closeKamaluyaSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreKamaluya').style.display = 'none';
+    }
+    function myFunctionAmaoDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreAmao').style.display = 'flex';
+      return false;
+    }
+    function closeAmaoSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreAmao').style.display = 'none';
+    }
+    function myFunctionPalsabangonDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMorePalsabangon').style.display = 'flex';
+      return false;
+    }
+    function closePalsabangonSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMorePalsabangon').style.display = 'none';
+    }
+    function myFunctionAltarMayorDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreAltarMayor').style.display = 'flex';
+      return false;
+    }
+    function closeAltarMayorSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreAltarMayor').style.display = 'none';
+    }
+    function myFunctionPalsabangonRiverDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMorePalsabangonRiver').style.display = 'flex';
+      return false;
+    }
+    function closePalsabangonRiverSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMorePalsabangonRiver').style.display = 'none';
+    }
+    function myFunctionTambakRiverDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreTambakRiver').style.display = 'flex';
+      return false;
+    }
+    function closeTambakRiverSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreTambakRiver').style.display = 'none';
+    }
+    </script>
+</body>
+</html>

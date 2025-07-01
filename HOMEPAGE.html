@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagbilao Tourism</title>
+    <link rel="stylesheet" href="newStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- home section starts here  -->
+    <section class="home">
+        <div class="home-box">
+            <nav>
+                <div class="logo bars">
+                    <div class="bar">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <img src="Logo.png" alt="Pagbilao Logo" class="pagbilao-logo">
+                    <h1>Welcome to Pagbilao</h1>
+                </div>
+                <div class="menu">
+                    <div class="close">
+                        <i class="fa fa-close"></i>
+                    </div>
+                    <ul>
+                        <li onclick="myFunctionHOME()"><a href="#" id="home">home</a></li>
+                        <li><a href="#" id="about">about</a></li>
+                        <li><a href="#"id="destinations">destinations</a></li>
+                    </ul>
+                </div>
+            </nav>
+          
+        </div>
+    </section>
+    <!-- home section ends here  -->
+
+  
+
+    <!-- destinatons section starts here  -->
+    <section class="destinations">
+        <div class="container">
+            <div class="container-box" style="display: flex; align-items: center; gap: 2rem; max-width: 1100px; margin: 0 auto;">
+                <div style="width: max-content; text-align: center;">
+                    <h2 class="heading" style="text-align: center; white-space: nowrap;">Bayan ng Mananalo</h2>
+                    <img src="Logoo.png" alt="Pagbilao Logo" class="pagbilao-logo-main" style="width: 350px; height: auto; display: block; margin: 16px auto 0 auto;">
+                </div>
+                <div class="content" style="flex: 1;">
+                    <div class="blue-content-box">
+                        <p class="bayan-narrow-center">In the early 1600s, a couple named Pablo and Rita braved the wilderness with only rice seedlings and dreams. They settled where Pagbilao now stands, later joined by others drawn to their peaceful life. By 1725, under Don Luis Felipe, the community flourished, famed for crafting papag (bamboo beds) and bilao (winnowing trays).
+
+When Spanish missionaries came, they asked the locals—through gestures and unfamiliar words—what the place was called. The villagers, confused, simply replied<strong> “Papag” </strong> and <strong> “Bilao.” </strong> The Spaniards combined the words into <strong> Pagbilao </strong>, unknowingly naming the town through a happy accident. And so, from humble beginnings and a simple misunderstanding, Pagbilao’s story began.</p>
+                        <a href="#" onclick="myFunctionURL()">More About Pagbilao <i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+      <br>        <br>  <br>  <br>  <br>  <br>  <br>  
+
+        <!-- Add this before the destinations section -->
+    <h1 class="main-section-title cultural-properties-heading" style="text-align:center; color:#0056b3; margin-top:2.5rem; margin-bottom:2rem; font-size:2.5rem; font-weight:800; letter-spacing:1px;">Pagbilao Tourism and Cultural Properties</h1>
+    <!-- travel section starts here  -->
+    <section id="travels" class="travel">
+        <div class="container cultural-properties-card">
+            <div class="travel-photo-grid">
+                <div class="photo-row row-top">
+                    <div class="photo-block" onmouseenter="showPopup(this)" onmouseleave="hidePopup(this)" onclick="myFunctionWater()">
+                        <img src="Irigangal1.png" alt="Bodies of Water">
+                        <div class="photo-label">Bodies Of Water</div>
+                        <div class="popup">
+                          <h3>Bodies Of Water</h3>
+                          <p>This is a short description or 🌟 fun fact about Bodies Of Water.</p>
+                        </div>
+                    </div>
+                    <div class="photo-block" onmouseenter="showPopup(this)" onmouseleave="hidePopup(this)" onclick="showPopup(this)">
+                        <img src="Patayan Island.png" alt="Land Formation">
+                        <div class="photo-label">Land Formation</div>
+                        <div class="popup">
+                          <h3>Land Formation</h3>
+                          <p>This is a short description or 🌟 fun fact about Land Formation.</p>
+                        </div>
+                    </div>
+                    <div class="photo-block" onmouseenter="showPopup(this)" onmouseleave="hidePopup(this)" onclick="showPopup(this)">
+                        <img src="Binhaan Dam.png" alt="Protected Areas">
+                        <div class="photo-label">Protected Areas</div>
+                        <div class="popup">
+                          <h3>Protected Areas</h3>
+                          <p>This is a short description or 🌟 fun fact about Protected Areas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo-row row-bottom">
+                    <div class="photo-block" onmouseenter="showPopup(this)" onmouseleave="hidePopup(this)" onclick="myFunctionImmovable()">
+                        <img src="Immovable.png" alt="Immovable">
+                        <div class="photo-label">Immovable</div>
+                        <div class="popup">
+                          <h3>Immovable</h3>
+                          <p>This is a short description or 🌟 fun fact about Immovable.</p>
+                        </div>
+                    </div>
+                    <div class="photo-block" onmouseenter="showPopup(this)" onmouseleave="hidePopup(this)" onclick="showPopup(this)">
+                        <img src="Cultural Instituition.png" alt="Cultural Instituition">
+                        <div class="photo-label">Cultural Instituition</div>
+                        <div class="popup">
+                          <h3>Cultural Instituition</h3>
+                          <p>This is a short description or 🌟 fun fact about Cultural Instituition.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- travel section ends here  -->
+     <Br> 
+ 
+    </section>
+    <!-- destinatons section ends here  -->
+
+    <!-- Feedback section starts here -->
+    <section class="feedback-section" style="padding: 3rem 0;">
+        <div style="display: flex; justify-content: center; align-items: flex-start; gap: 2rem; flex-wrap: wrap; max-width: 900px; margin: 0 auto;">
+            <div style="flex: 1; min-width: 250px;">
+                <h2 style="color: #0056b3; margin-bottom: 1.5rem;">We Value Your Feedback!</h2>
+                <p style="margin-bottom: 2rem;">Please let us know your thoughts, suggestions, or experiences by clicking one of the forms on the right.</p>
+            </div>
+            <div style="flex: 1; min-width: 250px; display: flex; flex-direction: column; gap: 1.5rem; align-items: flex-end;">
+                  <button style="background: #0056b3; color: #fff; border: none; border-radius: 8px; padding: 1rem 2rem; font-size: 1rem; cursor: pointer; width: 100%; max-width: 300px; text-align: center;" onclick="myFunctionTourismRegistration()">Pagbilao Tourism Registration</button>
+                <button style="background: #0056b3; color: #fff; border: none; border-radius: 8px; padding: 1rem 2rem; font-size: 1rem; cursor: pointer; width: 100%; max-width: 300px; text-align: center;" onclick="myFunctionTourismSurvey()">Pagbilao Tourism Survey Form</button>
+            </div>
+        </div>
+    </section>
+    <!-- Feedback section ends here -->
+
+    <!-- footer section starts here  -->
+    <footer>
+        <div class="footer-blue-bar top"></div>
+        <div class="footer-yellow">
+            <section class="footer">
+                <div class="container">
+                    <div class="detail">
+                         <h1>PAGBILAO TOURISM</h1>
+                        <p>ENJOY, HAVE FUN , AND EXPERIENCES <br> OUR NATURAL, IMMOVABLE AND CULTURAL INSTITUITION</p>
+                        <div class="social">
+                            <a href="#" onclick="myFunctionFB()" ><i class="fa fa-facebook-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="about-us">
+                        <h2>LGU PAGBILAO</h2>
+                        <li><a href="#" onclick="myFunctionURL()">about us</a></li>
+                        <li><a href="#">Pagbilao Municipal Hall, Rizal St., <br>Brgy. Sta. Catalina, Pagbilao, Quezon</a></li>
+                        <li><a href="#">Telephone No.:  <span>(042) 797-0937</span></a></li>
+                    </div>
+                    <div class="about-us">
+                        <h4>EMERGENCY HOTLINES</h4>
+                        <li><a href="#">Philippine National Police</a></li>
+                        <li><a href="#">Telephone No.: <span>(042)797-2854</span></a></li>
+                        <li><a href="#">Bureau of Fire Protection</a></li>
+                        <li><a href="#">Telephone No.: <span>(042)797-0932</span></a></li>
+                        <li><a href="#">Municipal Health Office</a></li>
+                        <li><a href="#">Telephone No.: <span>(042)797-3092</span></a></li>
+                    </div>
+                </div>
+                <div class="copyright">
+                    &copy;2025 -Pagbilao, Quezon, Philippines. <br> all rights reserved
+                    <div>
+                        <a href="#">term & conditions</a>
+                        <a href="#  ">privacy policy</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </footer>
+    <!-- footer section ends here  -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="newscript.js"></script>
+    <script>
+    function showPopup(box) {
+      const popup = box.querySelector('.popup');
+      if (popup) popup.classList.add('show');
+    }
+    function hidePopup(box) {
+      const popup = box.querySelector('.popup');
+      if (popup) popup.classList.remove('show');
+    }
+    </script>
+    <script>
+    document.querySelectorAll('.photo-block').forEach(block => {
+      let pressTimer;
+      let popup = block.querySelector('.popup');
+
+      // For touch devices: show popup on long press
+      block.addEventListener('touchstart', function(e) {
+        pressTimer = setTimeout(() => {
+          if (popup) popup.classList.add('show');
+        }, 400); // 400ms for long press
+      });
+
+      block.addEventListener('touchend', function(e) {
+        clearTimeout(pressTimer);
+        if (popup) popup.classList.remove('show');
+      });
+
+      // Optional: hide popup if user scrolls or moves finger away
+      block.addEventListener('touchmove', function(e) {
+        clearTimeout(pressTimer);
+        if (popup) popup.classList.remove('show');
+      });
+    });
+    </script>
+</body>
+</html>
